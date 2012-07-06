@@ -6,7 +6,7 @@ from django.utils.encoding import force_unicode, iri_to_uri
 from django.utils.text import Truncator, wrap, phone2numeric
 from django.utils.formats import date_format, time_format, number_format
 from django.utils.timesince import timesince, timeuntil
-from django.utils.html import escapejs, strip_tags
+from django.utils.html import escapejs, strip_tags, conditional_escape
 from pprint import pformat
 from jinja2 import Markup
 
